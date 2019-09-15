@@ -1,0 +1,49 @@
+h3 {
+  text-align: center;
+  font-family:'Times New Roman', Times, serif
+}
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+#go {
+  margin-left: 15px;
+}
+#date, #news {
+  padding-left: 15px;
+}
+#description {
+font-family: 'Times New Roman', Times, serif;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+div.popup {
+  padding:10px 10px 10px 10px;
+  width: 300px;
+}
+
+div.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border: 16px solid #f3f3f3; /* Light gray */
+  border-top: 16px solid #ff751a; /* loader color */
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+  z-index: 999;
+}
+
+.error {
+  color: red;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
